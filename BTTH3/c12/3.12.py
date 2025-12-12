@@ -1,0 +1,10 @@
+print("NGÔ ĐỨC ĐAI")
+print("msv:245751030110007")
+print("12)")
+ds=input("Nhập chuỗi:").split()
+ds.append("abc")
+ds.append("123")
+print("Chuỗi bài 9 sau khi bỏ 123:")
+ds.remove("123")
+for ch in ds:
+    print(ch)
